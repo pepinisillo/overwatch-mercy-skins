@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+<link rel="icon" href="mercy.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Battle Pass - Mercy Skin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #eee;
+      background: url('https://imgur.com/qzPdLVk.png') no-repeat center center fixed;
+      background-size: cover;
+      overflow-x: hidden;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(6px);
+      z-index: -1;
+    }
+
+    .main-skin {
+       display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* Menos altura mínima */
+  padding-top: 1rem; /* Menos espacio arriba */
+  margin-bottom: 0; /* Quita separación innecesaria */
+    }
+
+    .nft {
+      user-select: none;
+      width: 90%;
+      max-width: 600px;
+      border: 1px solid #ffffff22;
+      background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+      box-shadow: 0 7px 20px 5px #00000088;
+      border-radius: .7rem;
+      backdrop-filter: blur(7px);
+      -webkit-backdrop-filter: blur(7px);
+      overflow: hidden;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin: 0 0 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #a89ec9;
+    }
+
+.nav-buttons a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons a span {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eee;
+  padding: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.nav-buttons a:hover span {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+
+    .subpages {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 2rem;
+    }
+
+    .sub-card {
+      width: 200px;
+      border-radius: .5rem;
+      overflow: hidden;
+      background-color: #1e1e2f;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .sub-card:hover {
+      transform: scale(1.05);
+    }
+
+    .sub-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .sub-card h2 {
+      margin: 0;
+      padding: 1rem;
+      font-size: 1.1rem;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Contenido principal -->
+  <div class="main-skin">
+    <div class="nft">
+      <h1>Battle Pass</h1>
+      <p>El Battle Pass de Overwatch es una característica adicional en el juego que permite a los jugadores desbloquear contenido exclusivo mientras juegan y suben de nivel. A través de este pase, los jugadores pueden obtener skins, emotes, gestos y otros objetos cosméticos que no están disponibles en el pase estándar. El Battle Pass se puede comprar con dinero real o ganar a medida que se avanza en los niveles del pase, lo que ofrece una recompensa continua durante toda la temporada del pase.</p>
+    </div>
+  <!-- Navegación -->
+ <div class="nav-buttons">
+      <a href="ow_league.html"><span><</span></a>
+      <a href="index.html"><span>𖹭</span></a>
+      <a href="comunes.html"><span>></span></a>
+    </div>
+  </div>
+
+  <!-- Otras subpáginas -->
+  <div class="subpages">
+    <div class="sub-card" onclick="location.href='miko.html'">
+      <img src="https://imgur.com/yCBUyRf.png" alt="Miko">
+      <h2>Miko</h2>
+    </div>
+    <div class="sub-card" onclick="location.href='infiniteseer.html'">
+      <img src="https://imgur.com/IkohJld.png" alt="Infinite Seer">
+      <h2>Infinite Seer</h2>
+    </div>
+  </div>
+
+</body>
+</html>
