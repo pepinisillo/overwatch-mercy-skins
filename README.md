@@ -15,3 +15,7 @@ A web showcase for Overwatch Mercy character skins. Multiple pages by category (
 ## Tech
 
 HTML, CSS, Google Fonts (Montserrat). 
+
+## View live (GitHub Pages)
+
+**[https://pepinisillo.github.io/overwatch-mercy-skins/](https://pepinisillo.github.io/overwatch-mercy-skins/)**
